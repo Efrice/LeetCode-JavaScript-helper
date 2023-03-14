@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode helper for JavaScript",
+  "version": "1.0.0",
+  "description": "This extension is LeetCode helper for JavaScript.",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://leetcode.cn/problems/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "icons/128.png"
+  }
+}
