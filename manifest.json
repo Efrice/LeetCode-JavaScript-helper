@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LeetCode helper for JavaScript",
   "version": "1.0.0",
-  "description": "This extension is LeetCode helper for JavaScript.",
+  "description": "This Chrome extension is LeetCode helper for JavaScript.",
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
